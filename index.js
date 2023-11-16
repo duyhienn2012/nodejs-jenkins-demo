@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express()
 
-app.get('/contact', function (req, res) {
+app.get('/about', function (req, res) {
     res.send("Hello node")
 })
 app.listen(3000, function () {
